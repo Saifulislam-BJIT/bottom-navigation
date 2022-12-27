@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="author_array">
+        <item>Albert Einstein</item>
+        <item>George Bernard Shaw</item>
+        <item>Confucius</item>
+        <item>Elon Musk</item>
+        <item>John Lennon</item>
+        <item>Jackie Kennedy</item>
+        <item>Cesare Pavese</item>
+        <item>Friedrich Nietzsche</item>
+        <item>Friedrich Nietzsche</item>
+        <item>Martin Luther King, Jr.</item>
+    </string-array>
+
+    <string-array name="message_array">
+        <item>If you can\'t explain it simply, you don\'t understand it well enough.</item>
+        <item>Life isn\'t about finding yourself. Life is about creating yourself.</item>
+        <item>Life is really simple, but we insist on making it complicated.</item>
+        <item>Life is too short for long-term grudges.</item>
+        <item>Life is what happens while you are busy making other plans.</item>
+        <item>I want to live my life, not record it.</item>
+        <item>We do not remember days, we remember moments.</item>
+        <item>To live is to suffer, to survive is to find some meaning in the suffering.</item>
+        <item>Hope in reality is the worst of all evils because it prolongs the torments of man.</item>
+        <item>We must accept finite disappointment, but never lose infinite hope.</item>
+    </string-array>
+</resources>

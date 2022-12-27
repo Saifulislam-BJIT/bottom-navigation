@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/noteFormFragment">
+    <fragment
+        android:id="@+id/noteFormFragment"
+        android:name="com.saiful.navigationproject.fragment.NoteFormFragment"
+        android:label="@string/action_note"
+        tools:layout="@layout/fragment_note_form" >
+        <action
+            android:id="@+id/action_noteForm_to_noteList"
+            app:destination="@id/noteListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteListFragment"
+        android:name="com.saiful.navigationproject.fragment.NoteListFragment"
+        android:label="@string/action_note_List"
+        tools:layout="@layout/fragment_note_list" >
+        <action
+            android:id="@+id/action_noteList_to_noteForm"
+            app:destination="@id/noteFormFragment" />
+    </fragment>
+</navigation>

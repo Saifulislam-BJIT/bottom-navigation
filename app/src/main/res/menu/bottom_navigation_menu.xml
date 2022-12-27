@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_note"
+        android:title="@string/action_note"
+        android:icon="@drawable/ic_note"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/action_note_List"
+        android:title="@string/action_note_List"
+        android:icon="@drawable/ic_list"
+        android:enabled="true"/>
+</menu>
